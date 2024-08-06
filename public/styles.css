@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Fallback background color for the chat window */
+    background-image: url('download.jpeg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire chat window */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}
+
+#titl {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#titl h1 {
+    color: #fff; /* White text color */
+    font-size: 2;
+}
+
+#slogan {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  align-self: flex-end; /* Align sent messages to the right */
+  float: center; /* Float sent messages to the right */
+  clear: both;
+  border-radius: 20px;  /* Center align the welcome message */
+}
+
+#chat-window {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #222; /* Fallback background color for the chat window */
+    background-image: url('chat\ background.jpeg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire chat window */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+#chat-messages {
+    height: 600px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 10px;
+    background-color: #ffffff00; /* Slightly lighter background for the messages area */
+    padding: 10px;
+    word-wrap: break-word; /* Ensure long messages wrap within the container */
+}
+
+#message-input {
+    width: 80%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #000000; /* Dark input background */
+    color: #fff; /* White text color */
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.message {
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 20px;
+  display: inline-block; /* Adjust padding based on message length */
+  max-width: 80%; /* Prevent messages from taking up the full width */
+  clear: both; /* Clear floats to force messages to stack vertically */
+}
+
+.message.sent {
+  background-color: #007bff;
+  color: #fff;
+  text-align: right;
+  align-self: flex-end; /* Align sent messages to the right */
+  float: right; /* Float sent messages to the right */
+  clear: both; /* Clear floats to force messages to stack vertically */
+}
+
+.message.received {
+  background-color: #000000;
+  color: #fff;
+  align-self: flex-start; /* Align received messages to the left */
+  float: left; /* Float received messages to the left */
+  clear: both; /* Clear floats to force messages to stack vertically */
+}
+
+
+.welcome-message {
+    padding: 10px 1px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.867); /* Green color for welcome message */
+    margin-bottom: 10px; /* Add margin below the welcome message */
+    text-align: center; /* Center align the welcome message */
+}
+
+.user-line {
+    padding: 5px 10px; /* Bold text */
+    margin-bottom: 10px; /* Space below the user line */
+    color: #ffa500; /* Orange text color */
+    text-align: left; /* Centered text */
+    background-color: #000000; /* Slightly lighter background */
+    padding: 10px; /* Padding for some space around the text */
+    border-radius: 20px; /* Rounded corners */
+}
