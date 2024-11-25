@@ -1,1 +1,2 @@
 # Chat-Application
+A real-time chat application for seamless local communication over a Wi-Fi hotspot. With features like room creation, instant messaging using WebSockets, and a user-friendly UI, this app makes chatting easy and fun. Designed to run serverlessly in your browser, it’s built with HTML, CSS, JavaScript, and React.js for a modern, efficient experience. Share the link, join the chat, and connect instantly!
